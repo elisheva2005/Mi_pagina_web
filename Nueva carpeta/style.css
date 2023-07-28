@@ -1,0 +1,134 @@
+body {
+    background-image: url("412 sin título_20230525120058.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.image1,
+.image2 {
+    width: 100%;
+    height: auto;
+}
+
+.image2 {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    z-index: 1;
+}
+
+
+   
+
+h1 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 1px;
+    margin-top: 20px;
+    background-image: url("412 sin título_20230525120058.png");
+}
+
+/* Estilos para el menú de navegación */
+nav a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    margin: 5px 5px 15px 5px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #fcdeee;
+}
+
+nav a:hover {
+    background-color: #FF9B9B;
+    color: #fff;
+    cursor: url("minimal-axolotl-cursor-pack (1).png"), auto;
+}
+
+/* Estilos para la sección de bienvenida */
+.welcome-section {
+    background-color: #91C8E4;
+    color: white;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px; /* Margen inferior para separar las secciones */
+    border-radius: 20px;
+    margin: 10px 20px 50px 20px;
+}
+
+.welcome-content {
+    width: 60%;
+}
+
+.welcome-image {
+    width: 40%;
+    margin-left: 50px;
+}
+
+.welcome-image img {
+    width: 100%;
+    height: auto;
+    
+}
+
+/* Estilos para las secciones 1, 2 y 3 */
+.section1,
+.section2,
+.section3 {
+    color: #fafbff; 
+    padding: 50px;
+    align-items: center;
+    margin-bottom: 100px; 
+}
+
+.section1 {
+    background-color: #749BC2;
+    border-radius: 20px;
+    margin: 10px 20px 50px 20px;
+}
+
+.section2 {
+    background-color: #4682A9;
+    border-radius: 20px;
+    margin: 10px 20px 50px 20px;
+    
+}
+
+.section3 {
+    background-color: #121d27;
+    border-radius: 20px;
+    margin: 10px 20px 50px 20px;
+
+}
+
+footer {
+    left: 0;
+    width: 100%;
+    background-color: #ffe7f4;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Cursor personalizado */
+body {
+    cursor: url("minimal-axolotl-cursor-pack.png"), auto;
+}
